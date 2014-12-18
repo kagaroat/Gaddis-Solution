@@ -1,0 +1,13 @@
+//A program that stores the integers 62 and 99 in variables, and stores the sum of these two in a variable named total
+
+#include <iostream>                         //Including file for Input/Output
+using namespace std;                        //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+{
+    int Number_1 = 62;                      //Variable Number_1 that stores 62 in it
+    int Number_2 = 99;                      //Variable Number_2 that stores 99 in it
+    int Total = Number_1 + Number_2;        //Variable Total that stores sum of 62 and 99 which are present in Number_1 and Number_2 respectively
+    return 0;
+}
