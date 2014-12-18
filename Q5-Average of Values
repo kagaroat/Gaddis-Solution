@@ -1,0 +1,21 @@
+// Average of a series of values
+
+#include <iostream>                             //Including file for Input/Output
+using namespace std;                            //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+ {
+     float v1 = 28;                             //First value
+     float v2 = 32;                             //Second value
+     float v3 = 37;                             //Third value
+     float v4 = 24;                             //Fourth value
+     float v5 = 33;                             //Fifth value
+     float sum = (v1 + v2 + v3 + v4 + v5);      //sum of five values
+     float avg = sum / 5;                       //average of five values
+
+    //printing the average of five values along with the values
+     cout << "The average of the 5 values" << endl;
+     cout << "(" << v1 << ", " << v2 << ", " << v3 << ", " << v4 << ", and " << v5 << ") is = " << avg << "." << endl;
+     return 0;
+ }
