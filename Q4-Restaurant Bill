@@ -1,0 +1,24 @@
+// A program that computes the tax and tip on a restaurant bill for a patron
+
+#include <iostream>                             //Including file for Input/Output
+using namespace std;                            //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+{
+     float mealCost = 44.50;                    //Cost of meal in mealCost variable
+     float tax = .0675;                         //Tax of mealCost
+     float mealTax = mealCost * tax;            //Tax amount
+     float mealwTax = mealTax + mealCost;       //Total amount including tax amount
+     float tip = mealwTax * .15;                //Tip amount
+     float totalBill = tip + mealwTax;          //Formula of total bill
+
+
+     //Printing the contents
+     cout << "Meal cost is $" << mealCost << "." << endl;
+     cout << "The tax amount is $" << mealTax << "." << endl;
+     cout << "The tip amount is $" << tip << "." << endl;
+     cout << "and" << endl << "The total bill is $" << totalBill << "." << endl;
+
+     return 0;
+}
