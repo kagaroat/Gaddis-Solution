@@ -1,0 +1,18 @@
+// Program that calculate the employee's total annual
+
+#include <iostream>                                         //Including file for Input/Output
+using namespace std;                                        //Converting the Input/Output into standard form
+
+//Main function of program
+int main ()
+{
+    int payAmount = 1700;
+    int payPeriod = 26;
+    int annualPay =  payAmount * payPeriod;
+
+    //printing the content
+    cout << "Pay Amount = $" << payAmount << endl <<endl;
+    cout << "Pay Periods = " << payPeriod << endl << endl;
+    cout << "Annual Pay = $" << annualPay <<endl << endl;
+    return 0 ;
+}
