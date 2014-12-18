@@ -1,0 +1,17 @@
+// Sales Tax Calculation
+
+#include <iostream>                             //Including file for Input/Output
+using namespace std;                            //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+{
+    double sale = 52;                           //Variable name Sale which contain 52$ in Integer form
+    double state = .04;                         //4% = 4 / 100 = 0.04 State tax rate
+    double county = .02;                        //2% = 2 / 100 = 0.02 Country tax rate
+    double total = sale * (state + county);
+
+    //Print the total sale tax
+    cout << "Total tax = $" << total ;
+    return 0;
+}
