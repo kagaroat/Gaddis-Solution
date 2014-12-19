@@ -1,0 +1,21 @@
+// Program that calculate the employee's total annual
+
+#include <iostream>                                         //Including file for Input/Output
+using namespace std;                                        //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+{
+    double gallons = 20;
+    double mpgTown = 21.5;                                  //miles per gallon in town
+    double mpgHwy = 26.8;                                   //miles per gallon in highway
+
+    //formula for miles
+    double distanceTown = gallons * mpgTown;
+    double distanceHwy = gallons * mpgHwy;
+
+    //printing the content
+    cout << "In town the car can travel " << distanceTown << " miles with a full tank." << endl << endl;
+    cout << "On Highway the car can travel " << distanceHwy << " miles with a full tank." << endl << endl;
+    return 0;
+ }
