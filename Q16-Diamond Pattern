@@ -1,0 +1,19 @@
+// Program that displays diamond pattern
+
+#include <iostream>             //Including file for Input/Output
+using namespace std;            //Converting the Input/Output into standard form
+
+//Main function of program
+int main()
+{
+    //printing the content
+    cout << "   *" << endl;
+    cout << "  ***" << endl;
+    cout << " *****" << endl;
+    cout << "*******" << endl;
+    cout << " *****" << endl;
+    cout << "  ***" << endl;
+    cout << "   *" << endl;
+
+    return 0;
+}
